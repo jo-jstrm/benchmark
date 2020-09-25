@@ -2,5 +2,5 @@
 
 FOLDER_NUMBER=$1
 
-mkdir ~/jjestram/"run_$FOLDER_NUMBER"
-mv ~/rime_logs/*.log ~/git/benchmark/"run_$FOLDER_NUMBER"
+mkdir /home/jjestram/git/benchmark/"run_$FOLDER_NUMBER"
+mv /home/jjestram/rime_logs/*.log /home/jjestram/git/benchmark/"run_$FOLDER_NUMBER"

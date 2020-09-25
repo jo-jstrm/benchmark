@@ -26,9 +26,9 @@ def define_nodes(NUM_NODES): # lookup range/xrange for iteration over a number
 
     for number in range(0, NUM_NODES):         
         info('*** Adding node' + str(number) + '\n')
-        ip_str = '192.168.' + str(ip_high) + '.' + str(ip_low)
+        ip_str = '192.169.' + str(ip_high) + '.' + str(ip_low)
         
-        port = 50000 + ip_low + 1000*ip_high
+        port = 30000 + ip_low + 1000*ip_high
 
         # define node
         node_list.append(net.addDocker('r' + str(number),
@@ -36,7 +36,7 @@ def define_nodes(NUM_NODES): # lookup range/xrange for iteration over a number
                                             ports=[3000],
                                             port_bindings={port:3000},
                                             volumes=["/home/jjestram/rime_logs:/opt/logs_rime"],
-                                            dimage="jo/rime-noentry" ) )  
+                                            dimage="74797469/rime-noentry" ) )  
         ip_low+=1        
         if ip_low == 1000 :
             ip_low = 0
@@ -81,13 +81,13 @@ def start_nodes(node_list, num_tiers) :
 
                 ## get parent ip from parent id 
                 if parent_id < 1000 : 
-                    parent_ip_str = '192.168.0.' + str(parent_id)
+                    parent_ip_str = '192.169.0.' + str(parent_id)
                 else :
                     tmp = str(parent_id/1000)
                     tmp_list = tmp.split('.') 
-                    parent_ip_str = '192.168.' + tmp_list[0] + '.' + tmp_list[1].lstrip('0')                 
+                    parent_ip_str = '192.169.' + tmp_list[0] + '.' + tmp_list[1].lstrip('0')                 
             if node_id == 0 :                     
-                ip_str = '192.168.0.0'
+                ip_str = '192.169.0.0'
                 parent_ip_str = 'localhost'            
        
         # last level -> give each parent a child in round-robin-style
@@ -102,16 +102,16 @@ def start_nodes(node_list, num_tiers) :
             if parent_id >= 1000 :
                 tmp = str(parent_id/1000)
                 tmp_list = tmp.split('.')
-                parent_ip_str = '192.168.' + tmp_list[0] + '.' + tmp_list[1].lstrip('0')
+                parent_ip_str = '192.169.' + tmp_list[0] + '.' + tmp_list[1].lstrip('0')
             else : 
-                parent_ip_str = '192.168.0.' + str(parent_id)
+                parent_ip_str = '192.169.0.' + str(parent_id)
 
             # round robin here
             parent_id += 1            
             if parent_id >= first_parent_id + num_parents :
                 parent_id = first_parent_id
         
-        ip_str='192.168.' +  str(ip_high) + '.' + str(ip_low)
+        ip_str='192.169.' +  str(ip_high) + '.' + str(ip_low)
         
         args= ' --my_ip="' + ip_str + '" --node_id=' + str(node_id) + ' --tier=' + str(tier) + ' --relative_ip="' + parent_ip_str + '" --logger.file-name="' + str(node_id) + '_actor_log_[PID]_[TIMESTAMP]_[NODE].log"'
         
@@ -157,7 +157,7 @@ info('*** Starting network\n')
 net.start()
 
 start_nodes(node_list, NUM_TIERS)
-#node_list[0].cmd('cd /opt/logs_rime && /opt/rime/build/rime --config-file=/opt/rime/run/containernet/maintenance/scaling/node.ini --am_first_root=true --my_ip="192.168.0.0" --node_id=0 --tier=0 --relative_ip="localhost" --logger.file-name="0_actor_log_[PID]_[TIMESTAMP]_[NODE].log" &')
+#node_list[0].cmd('cd /opt/logs_rime && /opt/rime/build/rime --config-file=/opt/rime/run/containernet/maintenance/scaling/node.ini --am_first_root=true --my_ip="192.169.0.0" --node_id=0 --tier=0 --relative_ip="localhost" --logger.file-name="0_actor_log_[PID]_[TIMESTAMP]_[NODE].log" &')
 info('*** Running CLI\n')
 CLI(net)
 info('*** Stopping network')

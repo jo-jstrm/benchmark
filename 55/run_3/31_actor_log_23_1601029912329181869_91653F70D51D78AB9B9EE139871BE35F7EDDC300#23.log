@@ -1,0 +1,418 @@
+3 Networker ERROR actor6 140168060962560 GLOBAL network_manager network_manager.cpp:108 STARTUP
+3 Networker ERROR actor6 140168060962560 GLOBAL network_manager network_manager.cpp:128 my_ip=192.169.0.31
+3 Networker ERROR actor6 140168060962560 GLOBAL network_manager network_manager.cpp:129 my_port=3000
+3 Networker ERROR actor6 140168060962560 GLOBAL network_manager network_manager.cpp:130 am_first_root=0
+3 Networker ERROR actor6 140168060962560 GLOBAL network_manager network_manager.cpp:131 parent_ip=192.169.0.7
+3 Networker ERROR actor6 140168060962560 GLOBAL network_manager network_manager.cpp:132 parent_port=3000
+3 caf ERROR actor0 140168060988352 GLOBAL run_node main.cpp:111 Networker published
+4 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:194 Try to connect
+4 Tree ERROR actor12 140168035784448 GLOBAL operator() srt_node.cpp:100 initial attribute range = (40.299507,40.299507)
+4 Tree ERROR actor12 140168035784448 GLOBAL operator() srt_node.cpp:102 Initial subtree range: x=(40.299507,40.299507), y=(64.831404,64.831404)
+1004 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:194 Try to connect
+1506 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:211 CONNECTED
+1507 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:660 RECEIVED MESSAGE: new_parent
+1507 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:689 RECEIVED MESSAGE: new_backup
+1507 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+1507 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:404 SUBSCRIBERS
+1507 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:407 7
+1507 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+1507 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:273 RECEIVED MESSAGE
+1515 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+4808 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+4808 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+4808 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+4808 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+4809 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+4902 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:689 RECEIVED MESSAGE: new_backup
+4902 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+4902 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:404 SUBSCRIBERS
+4902 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:407 7
+4902 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:407 5
+5309 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+5809 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+6309 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+6809 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+7309 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+7810 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+8310 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+8544 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+8556 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:660 RECEIVED MESSAGE: new_parent
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:689 RECEIVED MESSAGE: new_backup
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:404 SUBSCRIBERS
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:407 7
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:407 5
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:407 10
+9654 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+9655 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:273 RECEIVED MESSAGE
+9656 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:689 RECEIVED MESSAGE: new_backup
+9656 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+9661 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+9672 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+9679 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:689 RECEIVED MESSAGE: new_backup
+9679 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+9810 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+9843 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+9843 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:381 RECEIVED MESSAGE
+9847 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:689 RECEIVED MESSAGE: new_backup
+9847 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:393 RECEIVED MESSAGE: subscribe
+10310 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+10810 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+11310 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+11811 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+12311 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+12811 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+13311 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+13811 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+14312 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+14812 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+15312 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+15812 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+16312 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+16812 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+17312 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+17813 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+18313 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+18813 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+19313 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+19813 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+19947 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+19947 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+19948 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+19948 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+20313 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+20814 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+21314 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+21814 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+22314 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+22814 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+23314 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+23814 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+24315 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+24815 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+25315 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+25815 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+26315 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+26816 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+27316 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+27816 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+28316 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+28816 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+29316 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+29816 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+30317 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+30817 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+31317 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+31817 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+32317 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+32817 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+33317 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+33818 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+34318 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+34818 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+34954 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+34954 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+34955 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+34955 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+35318 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+35818 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+36318 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+36818 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+37319 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+37819 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+38319 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+38819 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+39319 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+39819 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+40319 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+40820 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+41320 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+41820 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+42320 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+42820 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+43321 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+43821 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+44321 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+44821 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+45321 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+45821 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+46322 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+46822 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+47322 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+47822 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+48322 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+48822 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+49322 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+49823 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+49960 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+49960 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+49960 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+49960 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+50323 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+50823 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+51323 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+51823 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+52324 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+52824 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+53324 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+53824 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+54324 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+54824 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+55324 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+55825 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+56325 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+56825 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+57325 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+57825 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+58325 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+58825 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+59326 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+59826 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+60326 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+60826 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+61326 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+61826 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+62326 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+62827 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+63327 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+63827 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+64327 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+64827 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+64969 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+64970 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+64970 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+64970 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+65327 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+65828 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+66328 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+66828 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+67328 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+67828 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+68329 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+68829 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+69329 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+69829 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+70329 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+70830 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+71330 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+71830 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+72330 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+72830 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+73331 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+73831 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+74331 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+74831 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+75331 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+75831 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+76331 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+76831 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+77332 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+77832 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+78332 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+78832 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+79333 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+79833 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+79977 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+79977 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+79978 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+79978 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+80333 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+80833 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+81333 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+81833 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+82333 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+82833 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+83334 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+83834 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+84334 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+84834 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+85334 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+85835 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+86335 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+86835 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+87335 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+87835 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+88335 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+88835 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+89335 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+89836 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+90336 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+90836 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+91336 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+91836 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+92336 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+92836 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+93337 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+93837 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+94337 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+94837 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+94983 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+94983 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+94984 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+94984 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+95338 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+95838 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+96338 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+96838 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+97338 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+97839 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+98339 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+98839 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+99339 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+99839 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+100339 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+100839 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+101339 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+101840 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+102340 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+102840 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+103340 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+103840 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+104340 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+104840 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+105340 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+105841 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+106341 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+106841 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+107341 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+107841 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+108342 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+108842 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+109342 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+109842 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+109988 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+109988 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+109989 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+109989 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+110342 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+110842 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+111342 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+111842 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+112343 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+112843 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+113343 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+113843 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+114344 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+114844 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+115344 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+115844 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+116344 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+116844 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+117345 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+117845 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+118345 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+118845 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+119345 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+119845 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+120345 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+120845 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+121346 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+121846 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+122346 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+122846 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+123346 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+123846 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+124346 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+124847 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+124995 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:866 RECEIVED MESSAGE: collect_tree
+124995 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:899 RECEIVED MESSAGE: collect_tree
+124995 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:939 CURRENT TREE:
+124995 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:947 --------31
+125347 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+125847 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+126347 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+126847 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+127347 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+127847 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+128347 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+128848 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+129348 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+129848 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+130348 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+130848 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+131348 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+131849 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+132349 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+132849 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+133349 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+133849 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+134350 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+134850 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+135350 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+135850 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+136350 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+136850 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+137350 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+137850 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+138350 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+138851 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+139351 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+139851 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+140351 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+140851 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+141351 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+141851 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+142351 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+142851 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+143351 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+143852 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+144352 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+144852 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+145352 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+145852 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+146352 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+146852 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+147353 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+147853 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+148353 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+148853 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+149353 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+149853 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+150353 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+150853 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+151353 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+151853 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+152354 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+152854 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+153354 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+153854 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+154354 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+154854 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+155355 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+155855 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+156355 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+156855 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+157355 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+157855 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+158355 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+158856 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+159356 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+159856 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+160356 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+160856 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+161356 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+161856 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+162357 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+162857 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+163357 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+163857 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+164357 Networker ERROR actor6 140167792813824 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+164857 Networker ERROR actor6 140167784421120 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+165358 Networker ERROR actor6 140167776028416 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+165858 Networker ERROR actor6 140167767635712 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+166358 Networker ERROR actor6 140167759243008 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+166858 Networker ERROR actor6 140167750850304 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+167358 Networker ERROR actor6 140167197226752 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+167859 Networker ERROR actor6 140167188834048 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+168359 Networker ERROR actor6 140167180441344 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+168859 Networker ERROR actor6 140168060962560 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+169359 Networker ERROR actor6 140168052569856 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+169859 Networker ERROR actor6 140168044177152 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+170359 Networker ERROR actor6 140167801206528 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+170859 Networker ERROR actor6 140168035784448 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+171360 Networker ERROR actor6 140168027391744 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
+171860 Networker ERROR actor6 140168018999040 net_init)<GLOBAL operator() network_manager.cpp:835 DATA SENT
